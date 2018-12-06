@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SnappyWirelessJunctionBox" />
+		<Description value="Adds ability to craft a new model of electricwirerelay which is wireless" />
+		<Author value="Snappy" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

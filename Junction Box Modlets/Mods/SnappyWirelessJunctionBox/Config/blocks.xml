@@ -1,0 +1,30 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="junctionbox">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="controlPanelBase01"/>
+			<property name="DescriptionKey" value="junctionboxdesc"/>
+			<property name="CustomIcon" value="controlPanelBase02"/>
+			<property name="Class" value="ElectricWire"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/control_panel_base_02" param1="main_mesh"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DisplayType" value="blockElectrical" />
+			<property name="RequiredPower" value="0"/>
+			<property name="Group" value="Science"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="1"/></property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1" prob="0.2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,5" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="EconomicValue" value="28"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+	</append>
+</configs>

@@ -1,0 +1,11 @@
+<configs>
+	    <append xpath="/recipes">
+	
+<recipe name="junctionboxblock" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceConcreteMix" count="10"/>
+	<ingredient name="electricwirerelay" count="1"/>
+</recipe>
+
+		</append>
+</configs>
